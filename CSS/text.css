@@ -1,0 +1,18 @@
+@font-face {
+  font-family: headerFont;
+  src: url("../FONTS/berylium.ttf");
+}
+
+.header-font {
+  font-family: headerFont, sans-serif;
+  color: #a40239;
+}
+
+.article-header {
+  user-select: none;
+  font-size: 50px;
+}
+
+.text {
+  width: 90%;
+}

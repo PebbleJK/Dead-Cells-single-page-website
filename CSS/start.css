@@ -1,0 +1,33 @@
+#start {
+  min-height: 100%;
+}
+
+#start-quote {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  font-size: 40px;
+  user-select: none;
+  margin-bottom: 20px;
+}
+
+.continue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #a40239;
+  transition: ease-in-out 0.15s;
+}
+
+.continue:hover {
+  cursor: pointer;
+  background-color: #be154d;
+}
+
+.fa-arrow-down {
+  color: #fff;
+}
